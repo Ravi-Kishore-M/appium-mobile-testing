@@ -1,0 +1,42 @@
+{
+  "name": "appium-mobile-testing",
+  "version": "1.0.0",
+  "description": "Mobile Testing Framework with appium and webdriverio using Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ravikishore543/appium-mobile-testing.git"
+  },
+  "keywords": [
+    "appium",
+    "nodejs",
+    "webdriverio",
+    "cucumber"
+  ],
+  "author": "Ravi Kishore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ravikishore543/appium-mobile-testing/issues"
+  },
+  "homepage": "https://github.com/Ravikishore543/appium-mobile-testing#readme",
+  "dependencies": {
+    "@wdio/cli": "^6.1.11",
+    "@wdio/sync": "^6.1.8",
+    "appium": "^1.17.1",
+    "cucumber": "^6.0.5",
+    "wdio": "^4.0.0"
+  },
+  "devDependencies": {
+    "@wdio/appium-service": "^6.1.0",
+    "@wdio/cucumber-framework": "^6.1.8",
+    "@wdio/local-runner": "^6.1.11",
+    "@wdio/spec-reporter": "^6.1.9",
+    "chromedriver": "^81.0.0",
+    "wdio-chromedriver-service": "^6.0.3",
+    "wdio-cucumber-reporter": "0.0.2",
+    "wdio-video-reporter": "^2.0.0"
+  }
+}
