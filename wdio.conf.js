@@ -64,7 +64,7 @@ exports.config = {
         platformVersion: '7.1.1',
         deviceName: 'Pixel',
         appPackage: 'io.appium.android.apis',
-        app: '/Users/bishbanerjee/Documents/Ravi_WorkSpace/appium-mobile-testing/apps/ApiDemos-debug.apk',
+        app: './apps/ApiDemos-debug.apk',
         avd: 'Pixel'
     }],
     //
