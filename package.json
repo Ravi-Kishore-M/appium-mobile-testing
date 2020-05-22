@@ -27,7 +27,10 @@
     "@wdio/sync": "^6.1.8",
     "appium": "^1.17.1",
     "cucumber": "^6.0.5",
-    "wdio": "^4.0.0"
+    "lodash": "^4.17.15",
+    "mocha": "^7.1.2",
+    "wdio": "^4.0.0",
+    "xml2json": "^0.12.0"
   },
   "devDependencies": {
     "@wdio/appium-service": "^6.1.0",
